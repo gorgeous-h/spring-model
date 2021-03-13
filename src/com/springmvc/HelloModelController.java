@@ -28,7 +28,7 @@ public class HelloModelController {
 	@RequestMapping("/helloModelAndView")
 	public ModelAndView index3(){
 		ModelAndView modelAndView = new ModelAndView("index3");
-		User user = new User(1, "ÕÅÈý");
+		User user = new User(1, "å¼ ä¸‰");
 		modelAndView.addObject("user", user);
 		return modelAndView;
 	}
